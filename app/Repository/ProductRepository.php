@@ -42,8 +42,6 @@ class ProductRepository implements IProductRepository {
 
     }
 
-
-
     public function editProduct($id)
     {
         return Product::find($id);
